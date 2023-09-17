@@ -1,0 +1,110 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+
+.result{
+    display: flex;
+    
+    height: 65%;
+    width: 100%;
+    
+    
+}
+
+.city_search{
+    z-index: 3;
+    color: white;
+    display: flex;
+    align-items: flex-end ;
+    justify-content: flex-end;
+}
+
+.main{
+    width: 100%vw;
+    height: 840px;
+    background-image: url("Image.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+    
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+}
+#input-btn{
+    margin-top: 50%;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 25px;
+    padding: 7px 150px 7px;
+    font-size: 16px;
+    color:white;
+    outline: none;
+}
+::placeholder{
+    color: #cfcfcf;
+}
+
+#search-btn{
+    margin-top: 2%;
+    background-color: white;
+    border-radius: 25px;
+    padding: 7px 70px 7px;
+    border: none;
+    font-size: 16px;
+}
+.api-content{
+    display: flex;
+    
+}
+.temp{
+    font-size: 8rem;
+    color: white;
+    margin-left: 12%;
+    margin-top: 10%;
+
+}
+.place-and-time{
+    
+    color: white;
+    margin-left: 2%;
+    margin-top: 12%;
+}
+.place{
+    font-size: 3.5rem;
+    
+}
+
+.footer{
+    display: flex;
+    color: white;
+    justify-content: center;
+    margin-top: 1%;
+}
+.others{
+    display: flex;
+    justify-content: space-between;
+
+}
+.humidity{
+    margin-left: 10px;
+}
+.wind-speed{
+    margin-left: 10px;
+}
+
+.logo{
+    font-size: 1.5rem;
+    color: white;
+    padding-left: 10%;
+    padding-top: 1.2%;
+    
+}
